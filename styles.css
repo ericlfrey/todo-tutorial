@@ -1,3 +1,51 @@
 body {
-  background-color: #2FAC66
+  background-color: #2FAC66;
+  color: #333;
+  font-family: 'B612', sans-serif;
+}
+
+.head {
+  text-align: center;
+  margin-top: 2rem;
+}
+
+.todo-form {
+  display: flex;
+  justify-content: center;
+  margin-top: 1rem;
+}
+
+#todoInput {
+  width: 20rem;
+  background-color: cornsilk;
+  margin-left: 1rem;
+}
+
+.todo-lists {
+  display: flex;
+  margin-top: 3rem;
+}
+
+.todos-wrapper,
+.completed-wrapper {
+  width: 50%;
+  text-align: center;
+}
+
+.todos {
+  border-right: 1px solid black;
+}
+
+.todos,
+.completed {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.card {
+  width: 15rem;
+  margin: 1rem;
+  background-color: cornsilk;
+  color: #333
 }
